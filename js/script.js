@@ -1,3 +1,4 @@
+// Shrink the header when use scrolls down
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
