@@ -63,17 +63,40 @@ body {
   float: right;
 }
 
-@media screen and (max-width: 580px) {
-  #navbar {
-    padding: 20px 10px !important;
+#navbar .menuburger {
+  display: none;
+  float: right;
+  /* margin: 25px 20px 0px 0px; */
+}
+
+#navbar .small-menu {
+  display: none;
+  float: right;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+/* show the small menu if mobile/small screen */
+@media screen and (max-width: 1090px) {
+  /* hide the old menu screen and add hamburger icon */
+  #navbar #navbar-right {
+    display: none;
   }
-  #navbar a {
+  #navbar a.menuburger {
+    float: right;
+    display: block;
+  }
+
+  /* show new links */
+  #navbar .small-menu.responsive {
+    display: block;
+    position: relative;
+  }
+  #navbar div.small-menu.responsive a {
     float: none;
     display: block;
     text-align: left;
-  }
-  #navbar-right {
-    float: none;
+    width: 100%;
   }
 }
 

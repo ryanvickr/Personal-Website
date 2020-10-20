@@ -6,17 +6,27 @@
         <meta name="description" content="A portfolio/resume website for Ryan Vickramasinghe">
         <meta name="author" content="Ryan Vickramasinghe">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="icon" href="favicon.png">
     </head>
 
     <body>
         <div id="navbar">
             <span id="name">Ryan Vickramasinghe</span>
-            <div id="navbar-right">
+            <div class="class-navbar-right" id="navbar-right">
                 <a class="active" id="navAbout" href="#about" onclick="setActive('navAbout')">About</a>
                 <a id="navProjects" href="#projects" onclick="setActive('navProjects')">Projects</a>
                 <a id="navEducation" href="#education" onclick="setActive('navEducation')">Education</a>
                 <a id="navContact" href="#contact" onclick="setActive('navContact')">Contact</a>
+            </div>
+            <a href="javascript:void(0);" class="menuburger" onclick="menuControl()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <div class=small-menu id="my-small-menu">
+                <a href="#about" onclick="setActive('navAbout')">About</a>
+                <a href="#projects" onclick="setActive('navProjects')">Projects</a>
+                <a href="#education" onclick="setActive('navEducation')">Education</a>
+                <a href="#contact" onclick="setActive('navContact')">Contact</a>
             </div>
         </div>
         

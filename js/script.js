@@ -2,7 +2,7 @@
 // Shrink the header when use scrolls down
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+  if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
     document.getElementById("navbar").style.padding = "30px 10px";
     document.getElementById("name").style.fontSize = "2vw";
   } else {
@@ -22,4 +22,13 @@ function setActive(idName) {
     else
       elmt.classList.remove('active');
   });
+}
+
+function menuControl() {
+  var x = document.getElementById("my-small-menu");
+  if (x.className === "small-menu") {
+    x.className += " responsive";
+  } else {
+    x.className = "small-menu";
+  }
 }
