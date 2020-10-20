@@ -13,17 +13,72 @@
         <div id="navbar">
             <span id="name">Ryan Vickramasinghe</span>
             <div id="navbar-right">
-                <a class="active" href="#about" onclick="scrollToAbout()">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#education">Education</a>
-                <a href="#contact">Contact</a>
+                <a class="active" id="navAbout" href="#about" onclick="setActive('navAbout')">About</a>
+                <a id="navProjects" href="#projects" onclick="setActive('navProjects')">Projects</a>
+                <a id="navEducation" href="#education" onclick="setActive('navEducation')">Education</a>
+                <a id="navContact" href="#contact" onclick="setActive('navContact')">Contact</a>
             </div>
         </div>
-
+        
+        <a class="anchor" id="about"></a>
         <section id="aboutsection">
-            <div id="bio">
+            <div id="aboutdiv">
                 <div class="row">
                     <h2 class="sectionheader">About Me</h2>
+                    <hr class="hrblack">
+                </div>
+                <div class="row content">
+                    <div class="col left">
+                        <p class="pblack">I'm a 3rd-Year Computer Engineering student with nearly 2 years of experience as a Software Engineer.</p>
+                    </div>
+                    <div class="col right">
+                        <p class="pblack">Highlights:</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <a class="anchor" id="projects"></a>
+        <section id="projectssection">
+            <div id="projectsdiv">
+                <div class="row">
+                    <h2 class="sectionheader">Projects</h2>
+                    <hr class="hrblack">
+                </div>
+                <div class="row content">
+                    <div class="col left">
+                        <p class="pblack">I'm a 3rd-Year Computer Engineering student with nearly 2 years of experience as a Software Engineer.</p>
+                    </div>
+                    <div class="col right">
+                        <p class="pblack">Highlights:</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <a class="anchor" id="education"></a>
+        <section id="educationsection">
+            <div id="educationdiv">
+                <div class="row">
+                    <h2 class="sectionheader">Education</h2>
+                    <hr class="hrblack">
+                </div>
+                <div class="row content">
+                    <div class="col left">
+                        <p class="pblack">I'm a 3rd-Year Computer Engineering student with nearly 2 years of experience as a Software Engineer.</p>
+                    </div>
+                    <div class="col right">
+                        <p class="pblack">Highlights:</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <a class="anchor" id="contact"></a>
+        <section id="contactsection">
+            <div id="contactdiv">
+                <div class="row">
+                    <h2 class="sectionheader">Contact Me</h2>
                     <hr class="hrblack">
                 </div>
                 <div class="row content">

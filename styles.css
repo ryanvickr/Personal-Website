@@ -1,4 +1,7 @@
 * {box-sizing: border-box;}
+html {
+  scroll-behavior: smooth;
+}
 
 body { 
   margin: 0;
@@ -74,12 +77,29 @@ body {
   }
 }
 
-#aboutsection {
-  margin-top:210px;
-  padding:15px 15px 2500px;
+section {
+  margin: 0px;
+  padding:15px 15px;
   font-size:30px;
-
+} section#aboutsection {
+  margin-top:220px;
   background-color: rgb(111, 172, 148);
+} section#projectssection {
+  background-color: rgb(207, 188, 124);
+} section#educationsection {
+  background-color: rgb(207, 150, 124);
+} section#contactsection {
+  margin-bottom: 1000px;
+  background-color: rgb(207, 150, 124);
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -95px;
+    visibility: hidden;
+} a.anchor#about {
+  top: -100px;
 }
 
 h2.sectionheader {
