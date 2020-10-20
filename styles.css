@@ -3,12 +3,14 @@
 body { 
   margin: 0;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  background-color: rgb(111, 172, 148);
 }
 
 #navbar {
   overflow: hidden;
-  background-color: lightslategray;
-  padding: 90px 10px;
+  background-color: rgb(45, 71, 95);
+  padding: 80px 10px;
   transition: 0.4s;
   position: fixed;
   width: 100%;
@@ -35,7 +37,9 @@ body {
   float: left;
   color: white;
   text-align: center;
-  padding: 12px;
+  padding-left: 150px;
+  padding-right: 0px;
+  padding-top: 12px;
   text-decoration: none;
   font-size: 4.25vw; 
   line-height: 25px;
@@ -68,4 +72,51 @@ body {
   #navbar-right {
     float: none;
   }
+}
+
+#aboutsection {
+  margin-top:210px;
+  padding:15px 15px 2500px;
+  font-size:30px;
+
+  background-color: rgb(111, 172, 148);
+}
+
+h2.sectionheader {
+  margin: 20px 12px 0px 12px;
+  text-align: center;
+  font-size: 2vw;
+}
+
+div.row {
+  margin: 0px -15px 0px -15px;
+  padding: 0px;
+}
+div.row.content {
+  display: flex;
+
+  margin-left: 150px;
+  margin-right: 150px;
+}
+div.col.left {
+  width: 50%;
+  padding-right: 50px;
+  padding-left: 0px;
+}
+div.col.right {
+  width: 50%;
+  padding-right: 0px;
+  padding-left: 50px;
+}
+
+hr.hrblack {
+  margin: 15px auto 25px;
+  padding: 0;
+  max-width: 250px;
+  border: 0;
+  border-top: solid 4px;
+}
+
+p.pblack {
+  font-size: 1.5vw;
 }
