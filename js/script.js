@@ -11,8 +11,8 @@ function scrollFunction() {
   }
 }
 
+// Make the current "page" button active
 function setActive(idName) {
-  // make the new "page" active
   const ids = ['navAbout', 'navProjects', 'navEducation', 'navContact'];
 
   ids.forEach(function (id) {
@@ -24,6 +24,7 @@ function setActive(idName) {
   });
 }
 
+// Switch between small screen menu and normal menu
 function menuControl() {
   var x = document.getElementById("my-small-menu");
   if (x.className === "small-menu") {
