@@ -2,14 +2,14 @@
 // Shrink the header when use scrolls down
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
-  if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-    document.getElementById("navbar").style.padding = "30px 10px";
-    document.getElementById("name").style.fontSize = "2.25vw";
-    document.getElementById("name").style.paddingBottom = "0.5vw";
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    document.getElementById("navbar").style.padding = "20px 10px 0px 10px";
+    document.getElementById("name").style.fontSize = "2.75vw";
+    // document.getElementById("name").style.paddingBottom = "0.5vw";
   } else {
-    document.getElementById("navbar").style.padding = "80px 10px 50px 10px";
+    document.getElementById("navbar").style.padding = "80px 10px 5px 10px";
     document.getElementById("name").style.fontSize = "4.25vw";
-    document.getElementById("name").style.paddingBottom = "1vw";
+    // document.getElementById("name").style.paddingBottom = "1vw";
   }
 }
 
