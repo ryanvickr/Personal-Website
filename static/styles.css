@@ -109,7 +109,7 @@ section {
   background-color: rgb(111, 172, 148);
 } section#projectssection {
   background-color: rgb(207, 188, 124);
-} section#educationsection {
+} section#experiencesection {
   background-color: rgb(207, 150, 124);
 } section#contactsection {
   margin-bottom: 1000px;
@@ -165,25 +165,25 @@ p.pblack {
   font-size: 1.5vw;
 }
 
-.education {
+.experience {
   padding: 0;
-} .education h3 {
+} .experience h3 {
   padding: 0px;
   margin: 0px;
   display: inline;
   font-size: 1.6vw;
-} .education.date {
+} .experience.date {
   font-size: 1.6vw;
   float: right;
   text-align: right;
   padding: 12px 0px 0px 0px;
   font-weight: bold;
-} .education.degree {
+} .experience.company {
   padding: 0px 0px 0px 0px;
   margin: 0;
   font-size: 1.6vw;
   font-style: italic;
-}.education.activities {
+}.experience.activities {
   padding: 20px 0px 15px 0px;
   margin: 0;
   font-size: 1.5vw;
