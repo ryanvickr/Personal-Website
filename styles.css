@@ -132,15 +132,16 @@ h2.sectionheader {
 }
 
 div.row {
-  margin: 0px -15px 0px -15px;
-  padding: 0px;
-}
-div.row.content {
+  margin: 0 -15px 0 -15px;
+  padding: 0;
+} div.row.content {
+  margin: 0 150px 0 150px;
+} div.row.content.flex {
   display: flex;
-
-  margin-left: 150px;
-  margin-right: 150px;
+} div.row.content.block {
+  display: block;
 }
+
 div.col.left {
   width: 50%;
   padding-right: 50px;

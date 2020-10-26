@@ -1,0 +1,22 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "My personal website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvickram/Personal-Website.git"
+  },
+  "author": "Ryan Vickramasinghe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rvickram/Personal-Website/issues"
+  },
+  "homepage": "https://github.com/rvickram/Personal-Website#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
