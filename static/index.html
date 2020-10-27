@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Ryan Vickramasinghe</title>
+        <title>Ryan Vickramasinghe - Personal Website</title>
         <meta name="description" content="A portfolio/resume website for Ryan Vickramasinghe">
         <meta name="author" content="Ryan Vickramasinghe">
         <link rel="stylesheet" href="styles.css">
@@ -12,23 +12,75 @@
 
     <body>
         <div id="navbar">
-            <span id="name">Ryan Vickramasinghe</span>
+            <span id="name"><a id="namelink" href="index.html">Ryan Vickramasinghe</a></span>
+
             <div class="class-navbar-right" id="navbar-right">
                 <a class="active" id="navAbout" href="#about" onclick="setActive('navAbout')">About</a>
                 <a id="navProjects" href="#projects" onclick="setActive('navProjects')">Projects</a>
-                <a id="navEducation" href="#education" onclick="setActive('navEducation')">Education</a>
+                <a id="navExperience" href="#experience" onclick="setActive('navExperience')">Experience</a>
                 <a id="navContact" href="#contact" onclick="setActive('navContact')">Contact</a>
             </div>
+
             <a href="javascript:void(0);" class="menuburger" onclick="menuControl()">
                 <i class="fa fa-bars"></i>
             </a>
+
             <div class=small-menu id="my-small-menu">
                 <a href="#about" onclick="setActive('navAbout')">About</a>
                 <a href="#projects" onclick="setActive('navProjects')">Projects</a>
-                <a href="#education" onclick="setActive('navEducation')">Education</a>
+                <a href="#experience" onclick="setActive('navExperience')">Experience</a>
                 <a href="#contact" onclick="setActive('navContact')">Contact</a>
             </div>
+
+            <div class="socials">
+
+                <span class="socials link">
+                    <a href="https://www.linkedin.com/in/ryanvickr/" target="_blank">
+                        <img src="resources/linkedin-logo.png" alt="linkedin-logo" width="24px" height="24px">
+                        LinkedIn
+                    </a> 
+                </span>
+                
+                <span class="socials link">
+                    <a href="https://github.com/rvickram" target="_blank">
+                        <img src="resources/github-logo.png" alt="github-logo" width="24px" height="24px">
+                        GitHub
+                    </a> 
+                </span>
+
+                <span class="socials link">
+                    <a href="mailto:rvickram@uwo.ca" target="_blank">
+                        <img src="resources/email-logo.png" alt="email-logo" width="24px" height="24px">
+                        Email
+                    </a> 
+                </span>
+
+                <span class="socials link">
+                    <a href="https://www.facebook.com/ryanvickr" target="_blank">
+                        <img src="resources/facebook-logo.png" alt="facebook-logo" width="24px" height="24px">
+                        Facebook
+                    </a> 
+                </span>
+
+                <span class="socials link">
+                    <a href="https://www.instagram.com/ryanvickr/" target="_blank">
+                        <img src="resources/instagram-logo.png" alt="instagram-logo" width="24px" height="24px">
+                        Instagram
+                    </a> 
+                </span>
+
+            </div>
+
         </div>
+
+        <a clas="anchor" id="top"></a>
+        <section id="topsection">
+
+            <div id="topdiv">
+                <img class="profile" src="resources/profilepic.png" alt="profilepic">
+            </div>
+
+        </section>
         
         <a class="anchor" id="about"></a>
         <section id="aboutsection">
@@ -50,11 +102,11 @@
                     
                     <p class="pblack">
                         Apart from all that, I'm a big fan of music, sports, and TV Shows (for real, I even have a list),
-                         I love a good shawarma, and I like to write tweaks for jailbroken iPhones on occasion.
+                         I love a good shawarma, and I like to build apps on occasion.
                     </p>
                     
                     <p class="pblack">
-                        If you have any questions about my experiences, education, projects or want to connect about an opportunity, I'd love to connect on 
+                        If you have any questions about my experiences, experience, projects or want to connect about an opportunity, I'd love to connect on 
                         <a href="https://www.linkedin.com/in/ryanvickr/" target="_blank">LinkedIn</a> or have an exchange over email!
                         You can view the source code for this website and the projects it hosts 
                         <a href="https://github.com/rvickram/Personal-Website" target="_blank">here</a>.
@@ -71,41 +123,69 @@
                     <h2 class="sectionheader">Projects</h2>
                     <hr class="hrblack">
                 </div>
-                <div class="row content flex">
-                    <div class="col left">
-                        <p class="pblack">I'm a 3rd-Year Computer Engineering student 
-                            with nearly 2 years of experience as a Software Engineer.
-                        </p>
-                    </div>
-                    <div class="col right">
-                        <p class="pblack">Highlights:</p>
-                    </div>
+                <div class="row content block">
+                    <p class="pblack">
+                        Coming soon! (In the mean time check out my 
+                        <a href="https://github.com/rvickram" target="_blank">GitHub</a>!)
+                    </p>
                 </div>
             </div>
         </section>
 
-        <a class="anchor" id="education"></a>
-        <section id="educationsection">
-            <div id="educationdiv">
+        <a class="anchor" id="experience"></a>
+        <section id="experiencesection">
+
+            <div id="experiencediv">
                 <div class="row">
-                    <h2 class="sectionheader">Education</h2>
+                    <h2 class="sectionheader">Experience</h2>
                     <hr class="hrblack">
                 </div>
                 <div class="row content">
-                    <div class="education">
-                        <h3>University of Western Ontario</h3>
-                        <span class="education date">2016 - 2022</span>
-                        <p class="education degree">
-                            Bachelor of Engineering (BESc), Computer Engineering
+
+                    <div class="experience">
+                        <h3>Royal Bank of Canada</h3>
+                        <span class="experience date">May 2020 - October 2020</span>
+                        <p class="experience jobtitle">
+                            Database Engineer
                         </p>
-                        <p class="education activities">
-                            Activities: Professional Internship Option (PEY), Western 
-                            Artificial Intelligence Club, Intramural Sports, Western 
-                            Formula One Racing Team
+                        <p class="experience activities">
+                            Design and implementation of a production-ready system which catalogues 
+                            data from thousands of systems across the company using Java, NoSQL. I also built a REST API 
+                            which allows business-users to access data through a front-end.
                         </p>
                     </div>
+
+                    <div class="experience">
+                        <h3>Western AI Club</h3>
+                        <span class="experience date">September 2019 - Present</span>
+                        <p class="experience jobtitle">
+                            Project Manager
+                        </p>
+                        <p class="experience activities">
+                            Acting as project manager on a team where we are working to use <strong>artificial intelligence 
+                            to improve road traffic</strong>. We are collecting traffic data, and using AI to create smart, 
+                            dynamically changing traffic light timings at several real-life intersections in London.
+                        </p>
+                    </div>
+
+                    <div class="experience">
+                        <h3>Royal Bank of Canada</h3>
+                        <span class="experience date">May 2018 - August 2019</span>
+                        <p class="experience jobtitle">
+                            Database Engineer
+                        </p>
+                        <p class="experience activities">
+                            Involved in the design and implementation of a big data project utilizing Graph Theory
+                             to form relationships across various ledgers, and identify gaps/inconsistencies. I 
+                             completely redesigned and implemented a Java based, end-to-end ETL (Extract, Transform, Load) 
+                             process to <strong>reduce run-time from 12 hours down to 3 hours</strong>.
+                        </p>
+                    </div>
+
                 </div>
             </div>
+
+            
         </section>
 
         <a class="anchor" id="contact"></a>
