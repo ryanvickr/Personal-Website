@@ -15,7 +15,7 @@ function scrollFunction() {
 
 // Make the current "page" button active
 function setActive(idName) {
-  const ids = ['navAbout', 'navProjects', 'navExperience', 'navContact'];
+  const ids = ['navAbout', 'navProjects', 'navExperience', 'navThingsILike'];
 
   ids.forEach(function (id) {
     const elmt = document.getElementById(id);
