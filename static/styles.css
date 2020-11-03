@@ -162,6 +162,7 @@ p.pblack {
   font-size: 1.5vw;
 }
 
+/* Experience section styling */
 .experience {
   padding: 0;
 } .experience h3 {
@@ -184,6 +185,13 @@ p.pblack {
   padding: 20px 0px 15px 0px;
   margin: 0;
   font-size: 1.5vw;
+}
+
+.thingsilike.h3 {
+  padding: 0px;
+  margin: 0px;
+  display: inline;
+  font-size: 1.6vw;
 }
 
 img.profile {
