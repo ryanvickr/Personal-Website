@@ -45,7 +45,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "Some of my skills and how proficient I am with each.",
     "education": [
       {
         "school": "University of Western Ontario",
@@ -77,30 +77,38 @@
     "skills": [
       {
         "name": "Java",
-        "level": "95%"
-      },
-      {
-        "name": "Illustrator",
-        "level": "55%"
+        "level": "98%"
       },
       {
         "name": "ReactJs",
-        "level": "50%"
+        "level": "85%"
       },
       {
-        "name": "CSS",
+        "name": "Python",
         "level": "90%"
       },
       {
+        "name": "NoSQL",
+        "level": "95%"
+      },
+      {
+        "name": "SQL",
+        "level": "75%"
+      },
+      {
+        "name": "AWS/Azure/GCP",
+        "level": "90%"
+      },
+      {
+        "name": "UNIX/Linux",
+        "level": "95%"
+      },
+      {
+        "name": "CSS",
+        "level": "60%"
+      },
+      {
         "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "VueJs",
-        "level": "50%"
-      },
-      {
-        "name": "MongoDB",
         "level": "80%"
       }
     ]
