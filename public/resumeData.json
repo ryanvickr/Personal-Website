@@ -2,7 +2,7 @@
   "main": {
     "name": "Ryan Vickramasinghe",
     "occupation": "Software Engineer",
-    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "description": "I'll be graduating in April 2022, and am looking for full-time opportunities anywhere that gives me the chance to build things, solve problems, and continue learning!",
     "image": "profilepic.jpg",
     "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
@@ -49,7 +49,7 @@
     "education": [
       {
         "school": "University of Western Ontario",
-        "degree": "Bachelors of Computer Engineering",
+        "degree": "Bachelor of Computer Engineering",
         "graduated": "Expected May 2022",
         "description": "Professional Internship Option, Intramural Sports Captain, Western Formula One SAE Member, Western AI Club Member"
       }
@@ -63,13 +63,13 @@
       },
       {
         "company": "Royal Bank of Canada",
-        "title": "Software Engineer",
+        "title": "Software Engineer Intern",
         "years": "May 2020 - October 2020",
         "description": "Involved in design and implementation of an enterprise-wide data catalogue, which aggregates and presents available data."
       },
       {
         "company": "Royal Bank of Canada",
-        "title": "Software Engineer",
+        "title": "Software Engineer Intern",
         "years": "May 2018 - August 2019",
         "description": "Designed and implemented a system which would reconcile various risk ledgers using graph technology, processing millions of data points. Researched and designed a data model which improved performance by over 60%. Created an application which allowed users to graphically build complex graph queries to retrieve data from the system."
       }
@@ -108,34 +108,22 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
-      },
-      {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
         "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
+        "category": "This React-based resume website.",
+        "image": "resume-website.png",
+        "url": "https://github.com/rvickram/Personal-Website"
       },
       {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "Movie Recommender",
+        "category": "A Python-based IMDb scraper and movie recommender.",
+        "image": "movie-recommender.png",
+        "url": "https://github.com/rvickram/Movie-Recommendations"
+      },
+      {
+        "title": "Chat Client",
+        "category": "A React-based Chat client, along with a NodeJS-based messaging API.",
+        "image": "chat-client.png",
+        "url": "https://github.com/rvickram/Messaging-App-Client"
       }
     ]
   },
@@ -146,7 +134,7 @@
         "user": "Kareem Abdul Jabbar"
       },
       {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "text": "That Ryan Vickramasinghe must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
         "user": "Steve Wozniak... impersonator"
       }
     ]
