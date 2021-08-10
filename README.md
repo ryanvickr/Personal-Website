@@ -8,8 +8,4 @@
 Check out my personal website at https://www.helloitsryan.com!
 
 ## Technologies Used
-The website is hosted on an AWS EC2 instance, using Node.js and express. 
-
-### TV Show Recommender
-
-The was a project I created a while ago. To integrate it into the website, I built an API. 
+The website is hosted on an AWS instance, using React for the front-end, and Node.js for the backend.
