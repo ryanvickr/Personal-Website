@@ -80,12 +80,24 @@
         "level": "98%"
       },
       {
-        "name": "ReactJs",
+        "name": "C++",
         "level": "85%"
       },
       {
         "name": "Python",
-        "level": "90%"
+        "level": "80%"
+      },
+      {
+        "name": "Javascript",
+        "level": "98%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "85%"
+      },
+      {
+        "name": "Angular",
+        "level": "80%"
       },
       {
         "name": "NoSQL",
